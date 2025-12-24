@@ -121,7 +121,6 @@ export default function Portfolio() {
               }}
             >
               {[
-                'C',
                 'C++',
                 'Python',
                 'JavaScript',
@@ -130,15 +129,15 @@ export default function Portfolio() {
                 'React',
                 'Next.js',
                 'Node.js',
-                'Tailwind',
-                'CSS',
-                'HTML',
+                'TailwindCSS',
+                'MongoDB',
                 'Framer Motion',
                 'MySQL',
                 'AI-ML',
                 'NumPy',
                 'Pandas',
                 'OOPS',
+                'DBMS',
               ].map((skill, i) => (
                 <motion.span
                   key={i}
@@ -197,10 +196,10 @@ export default function Portfolio() {
                   demo: 'https://github.com/Khushii-24',
                 },
                 {
-                  title: 'Scribly – Notes Web App',
-                  desc: 'Built a modern notes app using React, Vite, and Tailwind CSS. Features include creating, editing, and deleting notes with an intuitive interface that boosts productivity and organizes workflows efficiently.',
-                  link: 'https://github.com/Khushii-24/SCRIBLY-NOTES-APP',
-                  demo: 'https://scribly-notes-app.vercel.app/#',
+                  title: 'Fashion – E-commerce Web App',
+                  desc: 'Built a modern fashion e-commerce app using React, Vite, and Tailwind CSS. Features include product browsing, filtering, sorting, and managing wishlist/cart, with a seamless checkout experience and order history for efficient shopping.',
+                  link: 'https://github.com/Khushii-24/Ecommerce-app',
+                  demo: 'https://luxe-label-ecommerce-app.vercel.app',
                 },
                 {
                   title: 'Customer Churn Prediction',
